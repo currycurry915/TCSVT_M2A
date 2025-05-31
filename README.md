@@ -131,11 +131,12 @@ python run_motion_to_attention.py --config="configs/cloud-1-p2p.yaml" --motion_p
 
 Find your results in **Video-P2P/outputs/xxx/results**.
 
+---
+
 ## 🖱️ GUI Usage Guide for Direction Guidance (Click to expand)
 
 This GUI tool allows users to interactively draw motion vectors on an image and extract direction information based on selected points.
 
----
 
 ###  How to Run
 
@@ -151,15 +152,11 @@ This GUI tool allows users to interactively draw motion vectors on an image and 
     python GUI.py
     ```
 
----
-
 ###  Load Image
 
 Enter the full path of the image into the text box and click the **"Load Image"** button to display it on the canvas.
 
 <img src="results/readme_images/GUI1.PNG" width="500"/>
-
----
 
 ###  Select Two Points
 
@@ -178,7 +175,6 @@ Click on **two points** in the image. The tool will:
   </tr>
 </table>
 
----
 
 ###  Final Step: Apply Direction-Aware Editing
 
@@ -186,7 +182,7 @@ After you finish selecting and saving the motion direction using the GUI, run th
 
 ```bash
 python run_motion_to_attention_direction_guidance.py
-
+```
 ---
 
 
