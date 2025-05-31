@@ -1,5 +1,15 @@
 <div align="center">
 
+# Motion-to-Attention (M2A)
+
+[🖼️ Project Page](https://currycurry915.github.io/Motion-to-Attention/) — Visit our project page for more visual results and detailed explanations.
+
+---
+
+Existing T2V (Text-to-Video) models often struggle to accurately estimate attention maps for motion prompts (e.g., *floating*, *moving*), which limits the editability of generated videos. To address this limitation, we propose the **Motion-to-Attention (M2A)** module. M2A enhances the attention maps across the entire prompt, significantly improving the editing capabilities of existing video editing models.
+
+
+
 <h1>Motion-to-Attention: Attention Motion Composer using Optical Flow for Text-to-Video Editing</h1>
 
 
