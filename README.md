@@ -171,10 +171,25 @@ Click on **two points** in the image. The tool will:
 - Calculate the angle in degrees
 - Save the vector and angle to a file named `vector.json`
 
-<img src="results/readme_images/GUI2.PNG" width="500"/>
-<img src="results/readme_images/GUI3.PNG" width="500"/>
+<table>
+  <tr>
+    <td><img src="results/readme_images/GUI2.PNG" width="450"/></td>
+    <td><img src="results/readme_images/GUI3.PNG" width="450"/></td>
+  </tr>
+</table>
 
 ---
+
+###  Final Step: Apply Direction-Aware Editing
+
+After you finish selecting and saving the motion direction using the GUI, run the following command to apply direction-guided video editing:
+
+```bash
+python run_motion_to_attention_direction_guidance.py
+
+---
+
+
 
 ## Acknowledgements
 This repository borrows heavily from [Video-P2P](https://github.com/ShaoTengLiu/Video-P2P). Thanks to the authors for sharing their code and models.
