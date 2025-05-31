@@ -5,9 +5,8 @@
 
 <br>
 
-<image src="results/attention.png"  />
-The existing T2V model failed to estimate an accurate attention map for the motion prompt {Floating}, which resulted in a decrease in editability, as shown in the top row of (b). (a) is a figure comparing the editability of Video-P2P and adding the proposed module to Video-P2P for input video. The proposed module improves the editability of existing video editing models through accurate estimation of attention maps. (b) briefly explains the method of enhancing the attention map by applying the proposed Motion-to-Attention module to address the limitations that the existing T2V model cannot accurately generate.
-
+<image src="results/readme_images/TCVST_fig1.png"  />
+Existing T2V (Text-to-Video) models often struggle to accurately estimate attention maps for motion prompts (e.g., floating, moving), which limits the editability of generated videos. To address this limitation, we propose the Motion-to-Attention (M2A) module. M2A enhances the attention maps across the entire prompt, significantly improving the editing capabilities of existing video editing models.
 <br>
 
 </div>
