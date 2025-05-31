@@ -176,7 +176,7 @@ Click on **two points** in the image. The tool will:
 <img src="results/readme_images/GUI3.PNG" width="500"/>
 
 ---
-
+</details>
 
 ## Acknowledgements
 This repository borrows heavily from [Video-P2P](https://github.com/ShaoTengLiu/Video-P2P). Thanks to the authors for sharing their code and models.
