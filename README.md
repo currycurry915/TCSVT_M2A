@@ -131,7 +131,7 @@ python run_motion_to_attention.py --config="configs/cloud-1-p2p.yaml" --motion_p
 
 Find your results in **Video-P2P/outputs/xxx/results**.
 
-<summary><strong>🖱️ GUI Usage Guide for Direction Guidance (Click to expand)</strong></summary>
+## 🖱️ GUI Usage Guide for Direction Guidance (Click to expand)
 
 This GUI tool allows users to interactively draw motion vectors on an image and extract direction information based on selected points.
 
