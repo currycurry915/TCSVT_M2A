@@ -28,7 +28,7 @@ The left side of the figure shows the overall framework of video editing by enha
 
 
 ## Experimental Results
-<image src="results/experimental_results.png"  />
+<image src="results/readme_images/tables.PNG"  />
 
 
 ### You can find more experimental results [on our project page](https://currycurry915.github.io/Motion-to-Attention/).
