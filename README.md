@@ -131,14 +131,13 @@ python run_motion_to_attention.py --config="configs/cloud-1-p2p.yaml" --motion_p
 
 Find your results in **Video-P2P/outputs/xxx/results**.
 
-<details>
 <summary><strong>🖱️ GUI Usage Guide for Direction Guidance (Click to expand)</strong></summary>
 
 This GUI tool allows users to interactively draw motion vectors on an image and extract direction information based on selected points.
 
 ---
 
-### 🚀 How to Run
+###  How to Run
 
 1. **Install dependencies**:
 
@@ -154,7 +153,7 @@ This GUI tool allows users to interactively draw motion vectors on an image and 
 
 ---
 
-### 1️⃣ Load Image
+###  Load Image
 
 Enter the full path of the image into the text box and click the **"Load Image"** button to display it on the canvas.
 
@@ -162,7 +161,7 @@ Enter the full path of the image into the text box and click the **"Load Image"*
 
 ---
 
-### 2️⃣ Select Two Points
+###  Select Two Points
 
 Click on **two points** in the image. The tool will:
 
@@ -176,7 +175,6 @@ Click on **two points** in the image. The tool will:
 <img src="results/readme_images/GUI3.PNG" width="500"/>
 
 ---
-</details>
 
 ## Acknowledgements
 This repository borrows heavily from [Video-P2P](https://github.com/ShaoTengLiu/Video-P2P). Thanks to the authors for sharing their code and models.
