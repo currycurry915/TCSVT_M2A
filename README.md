@@ -131,6 +131,52 @@ python run_motion_to_attention.py --config="configs/cloud-1-p2p.yaml" --motion_p
 
 Find your results in **Video-P2P/outputs/xxx/results**.
 
+<details>
+<summary><strong>🖱️ GUI Usage Guide (Click to expand)</strong></summary>
+
+This GUI tool allows users to interactively draw motion vectors on an image and extract direction information based on selected points.
+
+---
+
+### 🚀 How to Run
+
+1. **Install dependencies**:
+
+    ```bash
+    pip install dearpygui opencv-python numpy
+    ```
+
+2. **Launch the GUI**:
+
+    ```bash
+    python GUI.py
+    ```
+
+---
+
+### 1️⃣ Load Image
+
+Enter the full path of the image into the text box and click the **"Load Image"** button to display it on the canvas.
+
+<img src="results/readme_images/GUI1.PNG" width="500"/>
+
+---
+
+### 2️⃣ Select Two Points
+
+Click on **two points** in the image. The tool will:
+
+- Mark each point with a red circle
+- Draw a green arrow from the first to the second point
+- Compute the vector `(dx, dy)`
+- Calculate the angle in degrees
+- Save the vector and angle to a file named `vector.json`
+
+<img src="results/readme_images/GUI2.PNG" width="500"/>
+<img src="results/readme_images/GUI3.PNG" width="500"/>
+
+---
+
 
 ## Acknowledgements
 This repository borrows heavily from [Video-P2P](https://github.com/ShaoTengLiu/Video-P2P). Thanks to the authors for sharing their code and models.
