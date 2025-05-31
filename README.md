@@ -133,7 +133,7 @@ Find your results in **Video-P2P/outputs/xxx/results**.
 
 ---
 
-## 🖱️ GUI Usage Guide for Direction Guidance (Click to expand)
+## 🖱️ GUI Usage Guide for Direction Guidance
 
 This GUI tool allows users to interactively draw motion vectors on an image and extract direction information based on selected points.
 
