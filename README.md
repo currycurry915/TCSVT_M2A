@@ -3,6 +3,8 @@
 <h1>Motion-to-Attention: Attention Motion Composer using Optical Flow for Text-to-Video Editing</h1>
 
 [🖼️ Project Page](https://currycurry915.github.io/Motion-to-Attention/) — Visit our project page for more visual results and detailed explanations.
+[📄 Paper (PDF)](results/readme_images/Motion-to-Attention.pdf) — Read the full paper for technical details, methodology, and experimental results.
+
 
 ---
 
